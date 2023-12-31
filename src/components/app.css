@@ -1,0 +1,187 @@
+/* app.css */
+.navbar {
+    /* background-color: #01111b; */
+    height: 40px;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    margin-right: 10px; 
+    margin-top: auto;
+    padding: 3px;
+    /* color: #cce7f0; */
+    font-size: large;
+    
+    text-decoration: none;
+   
+  }
+  .nav{
+    display: flex;
+    list-style: none;
+    margin: 2px;
+  }
+  .textbox{
+    float: right;
+    height: 20px;
+    border: none;
+    margin-right: 0;
+    margin-left: 800px;
+
+  }
+  .button{
+    padding: 8px;
+    margin: 5px;
+    height: 30px;
+    border:none;
+    background: #6aadd6;
+    border-radius: 2px;
+
+  }
+  .search-container{
+    margin-left: 800px;
+    justify-content: space-around;
+
+  }
+.search-field{
+    height: 30px;
+    width: 160px;
+    border: none;
+
+}
+.box{
+  width: 1000px;
+  display: flex;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(5, 5, 5);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.box:hover{
+  border-color: #2980b9;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Adjust as needed */
+}
+
+.h{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  
+}
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.b{
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  height: 30px;
+  width: 90px;
+  background-color: #a1cde8;
+  
+}
+.b:hover{
+  background-color: #1078c2;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.con{
+  margin: 2px;
+}
+h2{
+  font-weigh:100;
+  font-family: 'Times New Roman', Times, serif;
+  color: #01111b;
+}
+.pre{
+  margin-left: 8px;
+
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  margin-left: 1000px;
+  height: 20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #080000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 4px;
+  bottom: 2px;
+  background-color: rgb(60, 152, 198);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #e5e9ec;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 100%;
+}
+/* app.css */
+.light .nav {
+    background-color: rgb(136, 225, 245);
+    color: rgb(16, 14, 14);
+    height: 40px;
+    padding: 10px;
+    
+  }
+  
+  
+  .dark .nav {
+    background-color: rgb(1, 12, 17);
+    color: white;
+    height: 40px;
+    padding: 10px;
+  
+  }
+  
+  /* Add any additional styles for light and dark modes as needed */
+  
